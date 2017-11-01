@@ -6,33 +6,41 @@
 .clearfix:after {
     clear: both;
 }
-.wrapper{
+
+.wrapper {
     background-color: #ffffff;
 }
-.container{
+
+.container {
     max-width: 1070px;
     margin: 0 auto;
 }
-.header{
+
+.header {
     display: flex;
     justify-content: space-between;
     padding-top: 70px;
 }
-.logo h1{
+
+.logo h1 {
     margin: 0;
 }
-.logo h1 a{
+
+.logo h1 a {
     display: block;
 }
-.main-menu ul{
+
+.main-menu ul {
     display: flex;
     justify-content: space-between;
 }
-.main-menu ul li{
+
+.main-menu ul li {
     list-style-type: none;
     padding-left: 70px;
 }
-.main-menu ul li a{
+
+.main-menu ul li a {
     display: block;
     text-decoration: none;
     font-family: Playfair Display, serif;
@@ -40,19 +48,22 @@
     text-transform: uppercase;
     color: #626262;
 }
-.main-img{
+
+.main-img {
     position: relative;
     width: 100%;
     height: 100vh;
     z-index: 9;
     overflow: hidden;
 }
-.bg-image{
-    width:auto;
+
+.bg-image {
+    width: auto;
     min-height: 100vh;
     display: block;
 }
-.main-img:before{
+
+.main-img:before {
     content: "";
     position: absolute;
     bottom: 0;
@@ -61,61 +72,71 @@
     background: linear-gradient(to top, #626262 0%, transparent 100%);
     background-size: 100%;
 }
-.photodiari-section{
+
+.photodiari-section {
     padding: 100px 0 0 80px;
 }
-.photodiari-section h2{
+
+.photodiari-section h2 {
     font-family: Ubuntu, sans-serif;
-    font-size:14px;
+    font-size: 14px;
     text-transform: uppercase;
     font-weight: 300;
     margin: 0;
 }
-.photodiari-section h2 a{
+
+.photodiari-section h2 a {
     text-decoration: none;
     display: inline-block;
-    color:#b4ad9e;
+    color: #b4ad9e;
 }
-.photodiari-section h3{
+
+.photodiari-section h3 {
     font-family: "Playfair Display", serif;
     font-size: 30px;
     margin: 0;
     padding-top: 30px;
     color: #626262;
 }
-.photodiari-section p{
+
+.photodiari-section p {
     font-family: "Playfair Display", serif;
     font-size: 14px;
     padding-top: 35px;
     color: #626262;
 }
-.bt-commit{
+
+.bt-commit {
     border: 0;
     background-color: #fff;
-    color:#b4ad9e;
+    color: #b4ad9e;
     font-family: Ubuntu, sans-serif;
     font-size: 14px;
     font-weight: 300;
     margin: 50px 0 135px;
     cursor: pointer;
 }
-.figure-section{
+
+.figure-section {
     display: flex;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
 }
-.figure-section li{
+
+.figure-section li {
     flex-basis: 50%;
     list-style-type: none;
 }
-.figure-section li h2{
+
+.figure-section li h2 {
     font-family: Ubuntu, sans-serif;
     font-size: 14px;
     text-transform: uppercase;
     font-weight: 300;
     color: #b4ad9e;
-    margin:30px 0;
+    margin: 30px 0;
 }
-.main-more-news a{
+
+.main-more-news a {
     text-decoration: none;
     color: #626262;
     display: block;
@@ -123,41 +144,48 @@
     font-size: 30px;
     margin-bottom: 30px;
 }
-.text{
+
+.text {
     font-family: "Playfair Display", serif;
     font-size: 14px;
     line-height: 24px;
     color: #626262;
     margin-bottom: 130px;
 }
-.form{
+
+.form {
     background-color: #f0f0f0;
     text-align: center;
     padding: 75px 0;
     margin-bottom: 100px;
 }
-.form-email{
+
+.form-email {
     font-family: "Playfair Display", serif;
     font-size: 30px;
     color: #333333;
 }
-.border{
+
+.border {
     display: inline-block;
     margin-bottom: 20px;
     border-bottom: 1px solid #000000;
 
 }
-.form-email input{
-    border:0;
-    background-color:inherit;
+
+.form-email input {
+    border: 0;
+    background-color: inherit;
     padding-right: 100px;
 }
-.form-email input::placeholder{
+
+.form-email input::placeholder {
     color: #626262;
     font-family: "Playfair Display", serif;
     font-size: 14px;
     padding-left: 5px;
 }
+
 .bt-submit {
     border: none;
     padding: 0;
@@ -166,12 +194,14 @@
     background: url(../images/icon-form.png) no-repeat center;
     cursor: pointer;
 }
-.load-more{
+
+.load-more {
     display: block;
     text-align: center;
     padding: 40px 0;
 }
-.load-more a{
+
+.load-more a {
     display: inline-block;
     color: #626262;
     font-family: "Playfair Display", serif;
@@ -180,6 +210,62 @@
     padding: 0 35px;
     line-height: 50px;
     text-decoration: none;
+}
 
+.footer {
+    background-color: #f0f0f0;
+}
 
+.footer-menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+
+.footer-list {
+    font-family: "Playfair Display", serif;
+    font-size: 14px;
+    color: #000000;
+}
+
+.footer-list span {
+    padding: 0 10px;
+}
+
+.footer-list span a {
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+}
+
+.footer-menu ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.footer-menu ul li {
+    list-style-type: none;
+}
+
+.follow {
+    text-decoration: none;
+    font-family: "Playfair Display", serif;
+    color: inherit;
+    font-size: 14px;
+}
+
+.facebook {
+    color: transparent;
+    background: url(../images/facebook.png) no-repeat center;
+}
+
+.twiter {
+    color: transparent;
+    background: url(../images/twitter.png) no-repeat center;
+}
+
+.instagram {
+    color: transparent;
+    background: url(../images/instagram.png) no-repeat center;
 }
